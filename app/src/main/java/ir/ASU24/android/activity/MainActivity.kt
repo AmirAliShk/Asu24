@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
         }
-        binding.webView.loadUrl("http://r111.ir")
+        binding.webView.loadUrl("https://r111.ir")
 
     }
 }

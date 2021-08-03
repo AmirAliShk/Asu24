@@ -5,6 +5,4 @@
     android:id="@+id/webView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ir.ASU24.android.activity.MainActivity">
-
-</WebView>
+    tools:context="ir.ASU24.android.activity.MainActivity"/>

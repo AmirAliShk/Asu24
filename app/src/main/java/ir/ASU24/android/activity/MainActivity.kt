@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        binding.webView.canGoBack()
 
         binding.webView.settings.setJavaScriptEnabled(true)
 

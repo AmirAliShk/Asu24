@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WebView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/webView"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="ir.ASU24.android.activity.MainActivity"/>
+    android:layout_height="match_parent">
+
+    <com.dinuscxj.refresh.RecyclerRefreshLayout
+        android:id="@+id/refreshPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="ir.harkat_aval.android.activity.MainActivity" />
+
+    </com.dinuscxj.refresh.RecyclerRefreshLayout>
+
+</RelativeLayout>
